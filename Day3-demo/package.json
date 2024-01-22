@@ -1,0 +1,30 @@
+{
+  "name": "day3-demo",
+  "version": "1.0.0",
+  "description": "react training",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MadhumithaNagarajan-alt/React_training_M.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "madhu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MadhumithaNagarajan-alt/React_training_M/issues"
+  },
+  "homepage": "https://github.com/MadhumithaNagarajan-alt/React_training_M#readme",
+  "devDependencies": {
+    "parcel": "^2.11.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
