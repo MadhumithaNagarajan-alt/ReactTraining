@@ -1,0 +1,81 @@
+.topnav {
+    overflow: hidden;
+    
+    margin-left: 649px;
+    margin-block: -62px;
+    
+  }
+  
+  .topnav a {
+    float: left;
+    color: #191717;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: rgb(95, 27, 27);
+  }
+  
+  .img{
+  background-image: url(istockphoto-610259354-612x612.jpg);
+  height: 500px;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: 600px;
+  position: relative;
+  margin-top: 69px;
+    
+    background-color: #FCDED966;
+    
+  }
+
+  #root{
+    background-color: white;
+  }
+
+  .top{
+    font-size: 17px;
+    color: black;
+    
+    background-color: #f5c6be66;
+    
+}
+
+.footer{
+    text-align: center;
+    background-color: #f5c6be66;
+    padding: 1px;
+}
+
+.para{
+    padding: 70px;
+    margin-top: -126px;
+    text-align: left;
+    font-size:large ;
+
+}
+
+.para2{
+    padding: 70px;
+    margin-top: -126px;
+    text-align: left;
+    font-size:large ;
+
+
+}
+
+.madhu{
+    padding: 70px;
+    
+}
+.Maincontainer{
+    background-color: rgb(186, 159, 125);
+}
+
+.Title{
+    margin-left: 68px;
+}

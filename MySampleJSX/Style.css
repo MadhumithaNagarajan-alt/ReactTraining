@@ -1,0 +1,20 @@
+.header{
+    font-size: 50px;
+    color: crimson;
+    background-color: antiquewhite;
+}
+
+.food{
+color: whitesmoke;
+ background-image: url(spaghetti-1932466_1280.jpg);
+ height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.mydiv{
+background-color: bisque;
+}
+
