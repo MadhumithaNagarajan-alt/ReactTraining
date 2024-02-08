@@ -1,0 +1,26 @@
+{
+  "name": "hookssample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MadhumithaNagarajan-alt/ReactTraining.git"
+  },
+  "author": "md",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MadhumithaNagarajan-alt/ReactTraining/issues"
+  },
+  "homepage": "https://github.com/MadhumithaNagarajan-alt/ReactTraining#readme",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "process": "^0.11.10"
+  }
+}
