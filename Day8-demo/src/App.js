@@ -6,12 +6,18 @@ import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Error from "./components/Error";
+import Master from "./components/Master";
+import Footer from "./components/Footer";
+
 
 const AppLayout = () => {
   return (
     <div className="app">
       <Header />
+      <Master />
+      
       <Outlet />
+      <Footer />
       {/* outlet is filled with respect to the path */}
     </div>
   );

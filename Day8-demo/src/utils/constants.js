@@ -1,5 +1,5 @@
 export const LOGO_URL =
-  "https://cdn.vectorstock.com/i/1000x1000/48/38/food-house-logo-template-icon-symbol-vector-40354838.webp";
+  "https://logos-world.net/wp-content/uploads/2020/11/Swiggy-Symbol.png";
 export const CDN_URL =
   "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660";
 
