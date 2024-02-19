@@ -1,8 +1,7 @@
 import { useEffect, useState } from "react";
-import Shimmer from "./Shimmer";
 import { useParams } from "react-router-dom";
-
-import { SWIGGY_MENU_URL } from "../utils/constants";
+import Shimmer from "./Shimmer";
+import { SwIGGYRES_URL } from "../Utils/constants";
 
 const RestaurantsMenu = () => {
   const [restaurantData, setRestaurantData] = useState(null);

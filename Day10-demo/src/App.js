@@ -6,20 +6,17 @@ import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Error from "./components/Error";
-import Master from "./components/Master";
+import RestaurantsMenu from "./components/RestaurantsMenu";
 import Footer from "./components/Footer";
-import RestaurantMenu from "./components/RestaurantMenu";
-import App from "./components/Footer";
-
+import Master from "./components/Master";
 
 const AppLayout = () => {
   return (
     <div className="app">
       <Header />
       <Master />
-      
       <Outlet />
-      
+      <Footer/>
       {/* outlet is filled with respect to the path */}
     </div>
   );
@@ -27,32 +24,30 @@ const AppLayout = () => {
 
 // creating the configs for routing: what will happen on a particular path/url
 const appRouter = createBrowserRouter([
-    {
-      path: "/", //root route
-      element: <AppLayout />,
-      children: [
-        {
-          path: "/",
-          element: <Body />,
-        },
-        {
-          path: "/about",
-          element: <About />,
-        },
-        {
-          path: "/contact",
-          element: <Contact />,
-        },
-
-        {
-          path: "/restaurants/:resId",
-          element: <RestaurantMenu />,
-        },
-        
-      ],
-      errorElement: <Error />,
-    },
-  ]);
+  {
+    path: "/", //root route
+    element: <AppLayout />,
+    children: [
+      {
+        path: "/",
+        element: <Body />,
+      },
+      {
+        path: "/about",
+        element: <About />,
+      },
+      {
+        path: "/contact",
+        element: <Contact />,
+      },
+      {
+        path: "/restaurants/:resId",
+        element: <RestaurantsMenu />,
+      },
+    ],
+    errorElement: <Error />,
+  },
+]);
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
